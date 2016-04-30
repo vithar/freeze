@@ -1,0 +1,16 @@
+{
+  "author": "Vitaly Harisov",
+  "name": "freeze",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:vithar/freeze.git"
+  },
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "borschik": "^1.5.2"
+  }
+}
