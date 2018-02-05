@@ -1,5 +1,5 @@
 var path = require('path'),
-    borschikFreeze = require('borschik/lib/freeze');
+    borschikHash = require('borschik-hash');
 
 module.exports = {
     file: function file(options) {
@@ -8,9 +8,8 @@ module.exports = {
                 return url;
             }
 
-            var absFilePath = path.resolve(options.folder, url);
-
-            return borschikFreeze.freeze(absFilePath).replace(path.resolve(options.cutPrefix), '');
+            return borschikHash(path.resolve(options.folder, url))
+                .replace(path.resolve(options.cutPrefix), '');
         };
     }
 }
