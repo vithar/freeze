@@ -1,4 +1,3 @@
-libs/
 node_modules/
 .DS_Store
 .idea
@@ -6,19 +5,3 @@ node_modules/
 .svn
 npm-debug.log
 *.swp
-
-# bem
-.bem/cache/
-.enb/tmp/
-*bundles*/*/*.*
-!*bundles*/*/*.bemdecl.js
-*bundles*/*/*.bemhtml.bemdecl.js
-!*bundles*/.bem/*
-*pages*/*/*.*
-!*pages*/*/*.bemdecl.js
-*pages*/*/*.bemhtml.bemdecl.js
-!*pages*/.bem/*
-
-token
-output
-.cache
